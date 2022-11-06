@@ -192,16 +192,17 @@ public class Triangulo extends JFrame {
 					lblResultado.setText("El area del triangulo es " + area + " u²");
 					lblValidarAltura.setText("");
 					lblValidarBase.setText("");
-				}
+				}				
+
 				else if(altura > 0) {
+					lblResultado.setText("Datos invalidos no se puede calcular area");
 					lblValidarAltura.setText("");					
 				}
 				else if(base > 0) {					
+					lblResultado.setText("Datos invalidos no se puede calcular area");
 					lblValidarBase.setText("");
 				}
-				else {					
-					lblResultado.setText("Datos invalidos no se puede calcular area");
-				}
+
 									
 			}
 
